@@ -1,4 +1,4 @@
-﻿package main;
+package main;
 
 import accounts.AccountService;
 import accounts.UserProfile;
@@ -13,7 +13,7 @@ import servlets.SignUpServlet;
 import servlets.WebSocketChatServlet;
 
 /**
- * ﻿﻿Задача:
+ * ??Задача:
  Часть первая (аналогично заданию 2)
  Написать сервер с двумя сервлетами:
  SignUpServlet для обработки запросов на signup и
