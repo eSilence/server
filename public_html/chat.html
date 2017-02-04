@@ -1,0 +1,33 @@
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>L4.1: Jetty WebSocket Chat</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="script.js" ></script>
+</head>
+<body onload="init();">
+<div id="body">
+    <div id="menu">
+        <p class="welcome">
+            Welcome, <input id="username" value="anonymous"/>
+        </p>
+    </div>
+
+    <div class="wrapper">
+        <div class="chatbox" id="chatbox">
+            <textarea id="messages" rows="20" cols="50" readonly="readonly"></textarea>
+        </div>
+        <div class="users" id="users">
+            <textarea id="usersname" rows="20" cols="50" readonly="readonly"></textarea>
+        </div>
+    </div>
+
+    <form name="message" action="">
+        <input name="usermsg" type="text" id="message" size="40"/>
+       <p> <input type="button" class="new" name="submitmsg" value="Send..." onclick="sendMessage();"></p>
+        <p><button>Исходная кнопка</button></p>
+  		<p><button class="new">Новая кнопка</button></p>
+    </form>
+</div>
+</body>
+</html>
